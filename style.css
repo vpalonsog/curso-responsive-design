@@ -49,6 +49,7 @@ h2 {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    flex-wrap: wrap;
 
 }
 
@@ -74,6 +75,7 @@ h2 {
     height: 70px;
     align-items: center;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .menu {
@@ -124,6 +126,7 @@ ul {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    flex-wrap: wrap;
     /* margin: 10px;
     margin-bottom: 15px; */
     /* padding: 20px;
@@ -171,6 +174,7 @@ ul {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .footer img {
@@ -233,6 +237,7 @@ ul {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .social {}
@@ -246,7 +251,7 @@ ul {
 }
 
 .social-link.twitter {
-    background-image: url('../images/twitter.svg');
+    background-image: url('./images/twitter.svg');
     background-size: 50px 50px;
 }
 
@@ -295,11 +300,27 @@ ul {
 }
 
 .container {
-    width: 1000px;
+    max-width: 1000px;
     margin: 0 auto;
     display: inherit;
     justify-content: inherit;
     align-items: inherit;
     height: inherit;
     flex-wrap: inherit;
+}
+
+@media screen and (max-width: 1024px) {
+    body {}
+}
+
+@media screen and (max-width:768px) {
+    body {}
+}
+
+@media screen and (max-width: 480px) {
+    body {}
+}
+
+@media screen and (max-width: 320px) {
+    body {}
 }
