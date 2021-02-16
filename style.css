@@ -409,7 +409,7 @@ ul {
     position: relative;
 }
 
-#burger-button {
+.burger-button {
     width: 40px;
     height: 40px;
     border-radius: 50%;
@@ -426,7 +426,7 @@ ul {
 }
 
 @media screen and (max-width:767px) {
-    #burger-button {
+    .burger-button {
         display: block;
     }
 
